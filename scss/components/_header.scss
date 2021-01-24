@@ -1,0 +1,50 @@
+.header {
+    
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 7rem;
+
+
+        &--item {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &--link {
+            color: $text--clr-gray;
+            position: relative;
+
+            &:hover {
+                color: $text--clr-black;
+            }
+
+            &.active {
+                font-weight: 900;
+                color: $text--clr-black;
+            }
+
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -.3rem;
+                left: 0;
+                background-color: $text--clr-black;
+                height: 1px;
+                width: 0;
+                transition: width 300ms ease-in-out;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}

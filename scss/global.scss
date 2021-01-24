@@ -1,7 +1,10 @@
 //shared
 
 @import "shared/variables";
+@import "shared/base";
 
 
 //components
-@import "components/header"
+@import "components/header";
+@import "components/imgWrapper";
+@import "components/description";

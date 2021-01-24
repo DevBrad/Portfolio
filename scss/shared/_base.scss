@@ -1,0 +1,16 @@
+body,
+html {
+    background-color: $bg-gray;
+    font-size: 10px;
+}
+
+.main-wrapper {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+    margin-top: 4rem;
+}
+
+a {
+    text-decoration: none;
+}

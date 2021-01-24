@@ -1,0 +1,15 @@
+.description-wrapper {
+
+    &__text {
+        font-size: 1.8rem;
+        font-family: 'Roboto Mono', monospace;
+        color: $text--clr-gray;
+        line-height: 1.3;
+
+        strong {
+            color: $text--clr-black;
+            font-size: 1.9rem;
+            letter-spacing: .1rem;
+        }
+    }
+}
