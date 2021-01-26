@@ -20,14 +20,22 @@
         &--link {
             color: $text--clr-gray;
             position: relative;
+            transition: background-color .5s, color .4s ease-in-out;
+            opacity: .8;
+
 
             &:hover {
                 color: $text--clr-black;
+                opacity: 1;
+                letter-spacing: .2rem;
+                background-color: gray;
+                color: #ffffff;
             }
 
             &.active {
                 font-weight: 900;
                 color: $text--clr-black;
+                background-color: transparent;
             }
 
 
